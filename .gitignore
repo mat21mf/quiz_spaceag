@@ -1,1 +1,15 @@
+### imagenes preprocesadas
 *NDVI*.tiff
+
+### otros archivos no usados
+.ipynb_checkpoints/
+etc/
+info_ndvi/
+old/
+parce_info/
+preproceso.ipynb
+rename_ndvi/
+test_images/
+trunc_p001_ndvi/
+trunc_p005_ndvi/
+trunc_p020_ndvi/
