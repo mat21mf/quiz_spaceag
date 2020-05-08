@@ -40,6 +40,8 @@
   git commit -a -m "Agrego archivos gdalinfo con ruta"
   git commit -a -m "Agrego subcarpetas de descarga temporal"
   git commit -a -m "Excluyo archivos shapefile por parcela"
+  git commit -a -m "Excluyo archivos extra informe"
+  git commit -a -m "Excluyo archivos extra modificaciones"
 
   git add README.md
   git commit -a -m "Agregando README"
@@ -53,6 +55,13 @@
   
   git add csv_datos/* insumos/* parce_vector/parce_vector_listado_archivos.txt
   git commit -a -m "Agrego otros archivos de insumo"
+
+  git commit respuesta/figs/plantuml_export.png respuesta/figs/plantuml_export.txt
+  git commit -a -m "Recuperar diagrama plantuml"
+
+  ### este commit borro la respuesta y sus dependencias
+  git add respuesta/*
+  git commit -a -m "Agrego la respuesta"
 
   ### deshacer commit sin push
   git reset --hard HEAD~;
