@@ -46,6 +46,7 @@
 
   git add *.sh
   git commit -a -m "Agrego shell scripts"
+  git commit -a -m "Agrego shell script modificado"
 
   git add *.py *.vim *.ipynb
   git commit -a -m "Agrego otros scripts"
