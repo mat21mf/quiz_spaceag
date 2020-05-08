@@ -56,6 +56,7 @@
   ### deshacer commit sin push
   git reset --hard HEAD~;
 
+  ### enviar commits
   git push -u origin master
 
   git remote -v
