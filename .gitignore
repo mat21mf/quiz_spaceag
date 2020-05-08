@@ -7,8 +7,6 @@ etc/
 info_ndvi/
 old/
 parce_info/
-preproceso.ipynb
-rename_ndvi/
 test_images/
 trunc_p001_ndvi/
 trunc_p005_ndvi/
