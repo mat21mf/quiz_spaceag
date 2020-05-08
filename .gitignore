@@ -2,6 +2,7 @@
 */NDVI*.tiff
 */NDVI*.csv
 */NDVI*.gdalinfo
+images_ndvi/*/
 
 ### otros archivos no usados
 .ipynb_checkpoints/
