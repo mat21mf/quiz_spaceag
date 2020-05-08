@@ -69,6 +69,8 @@
 
   git show-ref
 
+  git pull
+
   ### enviar commits
   git push -u origin master
 
@@ -84,6 +86,7 @@
 
   git add ImportarRepo.sh
   git commit -a -m "Modificado importar repo archivos lista"
+  git commit -a -m "Modificado importar repo archivos respuesta"
 
   git add images_ndvi/images_ndvi_listado_archivos.txt
   git add rename_ndvi/rename_ndvi_listado_archivos.txt
