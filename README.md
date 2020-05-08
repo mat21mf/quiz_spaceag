@@ -25,7 +25,7 @@ step/folder.
 
 Challenge description is in the following link:
 
-![https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/](https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/)
+[https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/](https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/)
 
 ## Sentinel images.
 
@@ -95,4 +95,4 @@ The resulting document are below the respuesta folder.
   simply to place everything again in the main path in which they were called
   originally.
 - Adapt this pipeline to be used in an environment such as
-  ![Galaxy](https://usegalaxy.org/).
+  [Galaxy](https://usegalaxy.org/).
