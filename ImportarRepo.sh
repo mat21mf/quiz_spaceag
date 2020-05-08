@@ -63,6 +63,7 @@
   ### este commit borro la respuesta y sus dependencias
   git add respuesta/*
   git commit -a -m "Agrego la respuesta"
+  git commit -a -m "Recuperacion minima de la respuesta"
 
   ### deshacer commit sin push
   git reset --hard HEAD~;

@@ -17,3 +17,6 @@ trunc_p005_ndvi/
 trunc_p020_ndvi/
 respuesta/figs/old/*
 respuesta/tex/anexo-citaciones-librerias.tex
+
+### excluir importar repo
+ImportarRepo.sh
