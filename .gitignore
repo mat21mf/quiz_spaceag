@@ -3,6 +3,7 @@
 */NDVI*.csv
 */NDVI*.gdalinfo
 images_ndvi/*/
+parce_vector/atributos_map_*
 
 ### otros archivos no usados
 .ipynb_checkpoints/

@@ -39,6 +39,7 @@
   git commit -a -m "Agrego archivos csv y tiff con ruta"
   git commit -a -m "Agrego archivos gdalinfo con ruta"
   git commit -a -m "Agrego subcarpetas de descarga temporal"
+  git commit -a -m "Excluyo archivos shapefile por parcela"
 
   git add README.md
   git commit -a -m "Agregando README"
@@ -48,6 +49,12 @@
 
   git add *.py *.vim *.ipynb
   git commit -a -m "Agrego otros scripts"
+  
+  git add csv_datos/* insumos/* parce_vector/parce_vector_listado_archivos.txt
+  git commit -a -m "Agrego otros archivos de insumo"
+
+  ### deshacer commit sin push
+  git reset --hard HEAD~;
 
   git push -u origin master
 
