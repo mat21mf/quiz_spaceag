@@ -1,5 +1,6 @@
 ### imagenes preprocesadas
-*NDVI*.tiff
+*/NDVI*.tiff
+*/NDVI*.csv
 
 ### otros archivos no usados
 .ipynb_checkpoints/
