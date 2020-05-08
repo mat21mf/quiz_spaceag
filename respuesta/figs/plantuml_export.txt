@@ -1,0 +1,26 @@
+@startuml
+
+participant wms as "wms\n(204 archivos)"
+participant images_ndvi as "images_ndvi\n(204 archivos)"
+participant rename_ndvi as "rename_ndvi\n(204 archivos)"
+participant farm_map as "farm_map\n(1 archivo)"
+participant trunc_n001_ndvi as "trunc_n001_ndvi\n(89 archivos)"
+participant mask_n001_ndvi as "mask_n001_ndvi\n(89 archivos)"
+participant parce_vector as "parce_vector\n(33 archivos)"
+participant raster_n001_ndvi as "raster_n001_ndvi\n(2937 archivos)"
+participant info_n001_ndvi as "info_n001_ndvi\n(2937 archivos)"
+participant csv_n001_ndvi as "csv_n001_ndvi\n(2937 archivos)"
+participant stats_n001_ndvi as "stats_n001_ndvi\n(2937 archivos)"
+
+wms -> images_ndvi: Descargar
+images_ndvi -> rename_ndvi: Editar
+rename_ndvi -> trunc_n001_ndvi: Truncar
+farm_map -> mask_n001_ndvi: Intersectar
+trunc_n001_ndvi -> mask_n001_ndvi: Intersectar
+mask_n001_ndvi -> raster_n001_ndvi: Dividir
+parce_vector -> raster_n001_ndvi: Dividir
+raster_n001_ndvi -> info_n001_ndvi: GenerarInfo
+raster_n001_ndvi -> csv_n001_ndvi: ExportarCsv
+csv_n001_ndvi -> stats_n001_ndvi: CalcularMetricas
+
+@enduml
