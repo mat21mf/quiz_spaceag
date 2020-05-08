@@ -21,6 +21,12 @@ another folder and so on. As many steps contain more than 3000 files, the files
 were replaced for one text file representing the file lists in each
 step/folder.
 
+## Quiz.
+
+Challenge description is in the following link:
+
+![https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/](https://bitbucket.org/adoval4/space-ag-data-analyst-challenge/src/master/)
+
 ## Sentinel images.
 
 Are located in the following folders along with how many of them contains each.
