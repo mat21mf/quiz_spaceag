@@ -15,5 +15,5 @@ test_images/
 trunc_p001_ndvi/
 trunc_p005_ndvi/
 trunc_p020_ndvi/
-./respuesta/figs/old/*
-./respuesta/tex/anexo-citaciones-librerias.tex
+respuesta/figs/old/*
+respuesta/tex/anexo-citaciones-librerias.tex
