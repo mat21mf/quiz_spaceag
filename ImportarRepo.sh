@@ -44,6 +44,10 @@
   git commit -a -m "Agregando README"
 
   git add *.sh
+  git commit -a -m "Agrego shell scripts"
+
+  git add *.py *.vim *.ipynb
+  git commit -a -m "Agrego otros scripts"
 
   git push -u origin master
 
